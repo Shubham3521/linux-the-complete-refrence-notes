@@ -7,5 +7,21 @@
 3. Current Linux version :-  5.13-rc5 (6 June 2021) 
 5. To implement firewall , provide the series of  rules to govern access to system and same rule can also be applied at network gateway at network level.
 6. Secure Shell :- The Secure Shell Protocol (SSH) is a cryptographic network protocol for operating network services securely over an unsecured network
-7. Kerberos is a computer-network authentication protocol that works on the basis of tickets to allow nodes communicating over a non-secure network to prove their ide
+7. Kerberos is a computer-network authentication protocol that works on the basis of tickets to allow nodes communicating over a non-secure network to prove their identity to one another in a secure manner. 
+8. Squid: Optimising Web Delivery : Squid is a caching and forwarding HTTP web proxy. It has a wide variety of uses, including speeding up a web server by caching repeated requests, caching web, DNS and other computer network lookups for a group of people sharing network resources, and aiding security by filtering traffic
+9. Packet filtering is a firewall technique used to control network access by monitoring outgoing and incoming packets and allowing them to pass or halt based on the source and destination Internet Protocol (IP) addresses, protocols and ports.
+10. Linux OS can act as a firewall
+11. In computer networking, a proxy server is a server application or appliance that acts as an intermediary for requests from clients seeking resources from servers that provide those resources.
+12. https://en.wikipedia.org/wiki/Proxy_server#/media/File:Proxy_concept_en.svg
+13. Proxy Server for linux : Example Squid
+14. Every app has Proxy Server, FTP - FTP Proxy, Web Proxy
+15. A Network Address Translation (NAT) firewall operates on a router to protect private networks. It works by only allowing internet traffic to pass through if a device on the private network requested it. A NAT firewall protects the identity of a network and doesn’t show internal IP addresses to the internet.
+16. IPchains ---> Current linux filter ---> Netfilter(iptables) ----> Netfilter(nfttable)
+17. UFW(Uncomplicated firewall) : UI for linux IPTables
+18. Netfilter acts as a packet filtering and NAT Tasks
+19. iptables is a user-space utility program that allows a system administrator to configure the IP packet filter rules of the Linux kernel firewall, implemented as different Netfilter modules. The filters are organized in different tables, which contain chains of rules for how to treat network traffic packets. Different kernel modules and programs are currently used for different protocols; iptables applies to IPv4, ip6tables to IPv6, arptables to ARP, and ebtables to Ethernet frames
+20. The IPtables software can be built directly into the kernel or loaded as akernerl model.
+21. IPtables has diffrent tables for nat and firewall function
+22. Ip6tables is used to set up, maintain, and inspect the tables of IPv6 packet filter rules in the Linux kernel. Several different tables may be defined
+
 
