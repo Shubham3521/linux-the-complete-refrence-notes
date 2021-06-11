@@ -1,0 +1,11 @@
+#Day1 -- Target 15 Pages -- 373 -- 388
+
+1. The firewall prevents any direct unauthorized attempts at access.
+2. The netfilter(IPTables) project is a community-driven collaborative FOSS project that provides packet filtering software for the Linux.
+   https://www.netfilter.org/
+3. Before nettable(IPTables) :- https://en.wikipedia.org/wiki/Ipchains :- Kernel Version (2.2 Series)
+3. Current Linux version :-  5.13-rc5 (6 June 2021) 
+5. To implement firewall , provide the series of  rules to govern access to system and same rule can also be applied at network gateway at network level.
+6. Secure Shell :- The Secure Shell Protocol (SSH) is a cryptographic network protocol for operating network services securely over an unsecured network
+7. Kerberos is a computer-network authentication protocol that works on the basis of tickets to allow nodes communicating over a non-secure network to prove their ide
+
